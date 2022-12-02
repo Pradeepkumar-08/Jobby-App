@@ -190,7 +190,7 @@ class JobItemDetails extends Component {
       </p>
       <button
         type="button"
-        id="button"
+        testid="button"
         className="job-item-failure-button"
         onClick={this.getJobItem}
       >
@@ -200,7 +200,7 @@ class JobItemDetails extends Component {
   )
 
   renderLoadingView = () => (
-    <div className="profile-loader-container" id="loader">
+    <div className="profile-loader-container" testid="loader">
       <Loader type="ThreeDots" color="#ffffff" height="50" width="50" />
     </div>
   )
